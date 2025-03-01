@@ -21,6 +21,7 @@ public class IframesHandling {
     driver.switchTo().frame(0);
     System.out.println(driver.findElement(By.tagName("p")).getText().trim());
 	driver.switchTo().defaultContent();
+    driver.quit();
 	
 	}
 }

@@ -40,6 +40,7 @@ public class OrangeHRM {
    	 		    
    	 		    }
    	 	}
+			driver.quit();
 ;
    	 	
     	 

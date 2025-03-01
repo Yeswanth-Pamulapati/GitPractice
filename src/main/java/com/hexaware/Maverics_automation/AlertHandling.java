@@ -34,8 +34,12 @@ public class AlertHandling {
 		 System.out.println(alert.getText());
 		 Thread.sleep(2000);
 		 alert.sendKeys("hello");
-		 alert.accept();
-		 alert.sendKeys("hello");
+		 alert.accept(); alert.sendKeys("hello");
+		alert.sendKeys("hello");
+		alert.sendKeys("hello");
+		alert.sendKeys("hello");
+		alert.sendKeys("hello");
+
 		
 		
 	}

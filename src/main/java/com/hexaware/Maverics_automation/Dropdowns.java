@@ -21,6 +21,7 @@ public class Dropdowns {
 		 Thread.sleep(1000);
 		 driver.findElement(By.xpath("//input[@value='Selenium Webdriver']")).click();
 		 System.out.println("For Git");
+		 driver.quit();
 		
 		
 		
