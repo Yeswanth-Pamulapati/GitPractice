@@ -18,7 +18,7 @@ public class AlertHandling {
 		 Thread.sleep(2000);
 		 Alert alert = driver.switchTo().alert();
 		 System.out.println(alert.getText());
-		
+		 System.out.println(alert.getText());		
 		 alert.accept();
 		 
 		 driver.findElement(By.xpath("//input[@name='confirmation']")).click();
@@ -31,7 +31,7 @@ public class AlertHandling {
 		 Thread.sleep(2000);
 		 alert.sendKeys("hello");
 		 alert.accept();
-		 
+		 alert.sendKeys("hello");
 		
 		
 	}
