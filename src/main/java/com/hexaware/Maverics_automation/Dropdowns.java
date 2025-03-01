@@ -20,7 +20,7 @@ public class Dropdowns {
 		 driver.findElement(By.xpath("//input[@value='Automation Tester']/parent::span")).click();
 		 Thread.sleep(1000);
 		 driver.findElement(By.xpath("//input[@value='Selenium Webdriver']")).click();
-		
+		 System.out.println("For Git");
 		
 		
 		

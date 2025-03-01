@@ -24,6 +24,10 @@ public class AlertHandling {
 		 driver.findElement(By.xpath("//input[@name='confirmation']")).click();
 		 System.out.println(alert.getText());
 		 Thread.sleep(2000);
+		System.out.println("For Git");
+		System.out.println("For Git");
+		System.out.println("For Git");
+
 		 alert.dismiss();
 		 
 		 driver.findElement(By.xpath("//input[@name='prompt']")).click();
